@@ -1,0 +1,51 @@
+/*styling the body*/
+body {
+    box-sizing: border-box;
+    background-color: rgb(254, 250, 255);
+    margin: 0;
+    padding: 0;
+  }
+  .nav a{
+    font-size: larger;
+    text-decoration: none;
+    float: right;
+    padding: 10px;
+    color: rgb(10, 8, 8);
+    background-color: rgb(109, 109, 218);
+  }
+  
+  .flex-container{
+    width: 100%;
+    height: auto;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(238, 234, 234);
+  }
+  .flex-box{
+    width: 225px;
+    height: auto;
+    background-color: rgb(246, 255, 246);
+    border-radius: 20px;
+    margin: 10px;
+   }
+  .flex-box img{
+    width: 225px;
+    height: auto;
+    border-radius: 5%;
+  }
+  .flex-box,p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:small;
+    text-align: center;
+  }
+ a{
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(24, 216, 24);
+} 
+a:hover{
+  font-size:20px;
+}
+

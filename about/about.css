@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+  
+/* Styling body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+/* Header*/
+.header {
+  background-image: url("about/o.jpg");
+    padding: 80px;
+    text-align: center;
+    /* background: #1abc9c; */
+    color: white;
+}
+  
+/* Increase the font size */
+.header h1 {
+    font-size: 40px;
+}  
+/* Column container */
+.about {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+  
+/* Creating two columns*/
+.side {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+  
+/* company column */
+.company {    
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+.fakeimg1 {
+    background-image: url("about/2.jpg");
+    background-repeat: no-repeat;
+    margin: 5px;
+}
+.fakeimg2 {
+  margin: 5px;
+  background-image: url("about/1.jpg");
+  background-repeat: no-repeat;
+}
+.fakeimg3 {
+  background-image: url("about/Utopiagalleria-1600x800.jpg");
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+  
+  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 700px) {
+    .row {   
+      flex-direction: column;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+   /* @media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+   }  */

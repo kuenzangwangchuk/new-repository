@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    padding: 40px;
+    background: #1e9cdc;
+    justify-items: center;
+ }
+p{
+    font-weight: 600;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+/* Editing container */
+.logincard {
+    margin: 0%;
+    background: rgb(245, 242, 242);
+    padding: 80px;
+    padding-top: 20px;
+    padding-bottom: 20PX;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px #010911;
+    display: inline-block;
+    border-radius: 20px;
+}
+.content{
+    padding: 7px;
+}
+a{
+    text-decoration: none;
+    padding: 5px;
+    font-size: medium;
+    color: rgb(4, 3, 3);
+}
+a:hover{
+    color: blue;
+}
+

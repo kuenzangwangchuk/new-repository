@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    padding: 40px;
+    background: #21a5e7;
+  }
+
+/* Editing container */
+.container {
+    margin: 0%;
+    background: rgb(243, 246, 250);
+    padding: 80px;
+    padding-top: 20px;
+    padding-bottom: 20PX;
+    border-radius: 5px;
+    box-shadow: 0 2px 13px #131313;
+    display: inline-block;
+    border-radius: 20px;
+}
+.content{
+    padding: 5px;
+}
+a {
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+}
+a:hover{
+    color: blue;
+}
